@@ -32,7 +32,7 @@
 - [Struct](./Structs.md)
 - [Struct Fields](./Struct_Fields.md)
 - [Pointers To Structs](./Pointers_to_structs.md)
-- [Struct Literal]()
+- [Struct Literal](./struct_literal.md)
 - [Prefix Suffix]()
 - [Conversion Between Array And Slice]()
 - [Methods](./what_is_methods.md) 
