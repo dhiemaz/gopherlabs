@@ -28,6 +28,7 @@
 - [Creating Your Own Type](./Creating_Your_Own_Type.md)
 - [Defers](./Defer_go.md)
 - [Stacking Defers](./stacking_defers.md)
+- [Pointer](./pointer_golang.md)
 - [Struct Fields]()
 - [Pointers To Structs]()
 - [Struct Literal]()
