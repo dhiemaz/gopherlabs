@@ -35,6 +35,6 @@
 - [Struct Literal]()
 - [Prefix Suffix]()
 - [Conversion Between Array And Slice]()
-- [Methods]() 
+- [Methods](./what_is_methods.md) 
 - [Variadic Functions](./Go_Variadic_functions.md)
 - [Interface]()
