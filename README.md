@@ -1,4 +1,4 @@
-# Welcome to Gopher Labs
+# Welcome to Gopher Labs [![Say Thanks](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg)](https://saythanks.io/to/collabnix)
 
 ![logo](https://raw.githubusercontent.com/EngineITOps/GopherLabs/master/img/1280px-Go_Logo_Aqua.svg.png)
 
