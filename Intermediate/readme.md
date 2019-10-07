@@ -31,4 +31,4 @@ between processes
 -  Working with SQL Databases
 -  Working with Time-Series Databases: InfluxDB
 - [Introduction  CockroachDB](./intro_COCKROACHDB.md)
--  Working with global-scale distributed databases: CockroachDB
+- [Working with global-scale distributed databases: CockroachDB](./Working_with_global-scale_distributed_databases_CockroachDB.md)
