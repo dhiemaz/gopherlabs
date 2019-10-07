@@ -26,6 +26,7 @@
 - [Conditional Logic Operators](./Conditional_Logic_Operators.md)
 - [Conversion, Not Casting](./Conversion_Not_Casting.md) 
 - [Creating Your Own Type](./Creating_Your_Own_Type.md)
+- [Defers](./Defer_go.md)
 - [Stacking Defers]()
 - [Struct Fields]()
 - [Pointers To Structs]()
