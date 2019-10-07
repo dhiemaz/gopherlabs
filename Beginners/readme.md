@@ -31,7 +31,7 @@
 - [Pointer](./pointer_golang.md)
 - [Struct](./Structs.md)
 - [Struct Fields](./Struct_Fields.md)
-- [Pointers To Structs]()
+- [Pointers To Structs](./Pointers_to_structs.md)
 - [Struct Literal]()
 - [Prefix Suffix]()
 - [Conversion Between Array And Slice]()
