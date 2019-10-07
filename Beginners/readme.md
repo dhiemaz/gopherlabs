@@ -37,5 +37,5 @@
 - [Conversion Between Array And Slice]()
 - [Methods](./what_is_methods.md) 
 - [Variadic Functions](./Go_Variadic_functions.md)
-- [Interface](./)
+- [Interface](./interface_Go.md)
 - [Command Line Arguments and File I/O](./CLI_File_Arg.md)
