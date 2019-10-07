@@ -29,7 +29,7 @@
 - [Defers](./Defer_go.md)
 - [Stacking Defers](./stacking_defers.md)
 - [Pointer](./pointer_golang.md)
-- [Struct Fields]()
+- [Struct Fields](./Structs.md)
 - [Pointers To Structs]()
 - [Struct Literal]()
 - [Prefix Suffix]()
