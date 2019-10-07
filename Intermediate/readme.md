@@ -30,5 +30,5 @@ between processes
 -  Working with NoSQL Databases: MongoDB
 -  Working with SQL Databases
 -  Working with Time-Series Databases: InfluxDB
-- [Introduction  CockroachDB]()
+- [Introduction  CockroachDB](./intro_COCKROACHDB.md)
 -  Working with global-scale distributed databases: CockroachDB
