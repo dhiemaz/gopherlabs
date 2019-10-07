@@ -10,6 +10,15 @@ Yes, you read it right ! Its $0 learning platform. You don't need any infrastruc
 https://play.golang.org). This is a free browser based learning platform for you. Hence, we have everything ready for you to get started with.
 
 
+#  Getting Started in 3 Simple Steps
+
+- Join GopherLabs Contributors in 2 mins via [GopherLabs Slack Channel](https://join.slack.com/t/collabnix/shared_invite/enQtNTI4Mjc1NTg4MTAzLTg1NzQzZjg0MjhjZDNkYzQwNWQ3NmQ1YTZhOWVjODA4NzdlNDFhY2ZkNWQ2MGVlNTI5YmFlNWU5N2I5NDJmMDU)
+
+- Fork, Contribute & Share via [GopherLabs GITHUB Repository](https://github.com/collabnix/gopherlabs)
+
+-  [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40collabnix)](https://twitter.com/collabnix)
+
+
 
 
 
