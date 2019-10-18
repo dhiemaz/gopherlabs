@@ -33,7 +33,7 @@ main() will run second
 
 init() function to use for variables initialization.
 
-the first example is code without init() function.
+given two examples, the first example is code without init() function.
 ```go
 
 package main
