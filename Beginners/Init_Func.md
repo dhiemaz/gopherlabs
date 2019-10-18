@@ -7,7 +7,7 @@ Identifier _main_ is ubiquitous. Every Go program starts in a package _main_ by 
 * registering.
 * running one-time computations.
 
-init() function will be execute first before main function
+init() function will be executed first before main function
 ```go
 package main
 
