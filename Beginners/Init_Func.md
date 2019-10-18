@@ -3,7 +3,7 @@
 
 Identifier _main_ is ubiquitous. Every Go program starts in a package _main_ by calling identically named function. When this function returns the program end its execution. Functions _init_ also play special role which are defined in package block and are usually used for:
 
-* variables initialization if cannot be done in initializtion expression.
+* variables initialization if cannot be done in initialization expression.
 * registering.
 * running one-time computations.
 
