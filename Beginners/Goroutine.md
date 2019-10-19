@@ -3,9 +3,9 @@
 Goroutines are functions or methods that run concurrently with other functions or methods. Goroutines can be thought of as light weight threads.
 
 ## creating goroutine
-To create goroutine, just simply use prefix function or method call with the keyword `go` and you will have a new Goroutine running concurrently.
+To create goroutine, just simply use prefix function or method call with the keyword `go` and you will have a new goroutine running concurrently.
 
-lets see below example
+lets see example below,
 
 ```go
 package main
@@ -24,14 +24,14 @@ func main() {
 ```
 [playground](https://play.golang.org/p/KUvIpVzepjs)
 
-in the syntax `go hello()` we starts a new goroutine. Now the hello() function will run concurently along with main() function. The main function runs in its own goroutine and its called main goroutine.
+the `go hello()` syntax tell the program that we are creating a new goroutine. Now the hello() function will run concurently along with main() function. The main function runs in its own goroutine and its called main goroutine.
 
 ```
 Output
 main function
 ```
 
-As shown above, the output program will only print text `main function`. What happened to the goroutine we started? We need to understand two main properties of goroutines to understand why this happens.
+The output program will only print text `main function`. What happened to the goroutine we started? We need to understand two main properties of goroutines to understand why this happens.
 
 * When a new goroutine is started, the goroutine call returns immediately. Unlike functions, the control does not want for the goroutine to finish executing (blocked). The control returns immediately to the next line of code after the goroutine call and any return values from the goroutine are ignored.
 
