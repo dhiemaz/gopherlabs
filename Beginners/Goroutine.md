@@ -70,7 +70,7 @@ main function
 We are adding `sleep` method of time package which sleeps the main goroutine for 1 second so the `go hello()` will have enough time to execute before the main goroutine terminates.
 
 
-_This way of using sleep in the main goroutine to wait for another goroutine to finish their execution is a hack, there are several ways to coordinate between goroutines that is :_
+_This way of using sleep in the main goroutine to wait for another goroutine to finish their execution is a hack, there are several ways to operate coordination between goroutines that is :_
 * channel
 * mutex
 * waitGroup
