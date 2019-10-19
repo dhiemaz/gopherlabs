@@ -24,7 +24,9 @@ func main() {
 ```
 [playground](https://play.golang.org/p/KUvIpVzepjs)
 
-the `go hello()` syntax tell the program that we are creating a new goroutine. Now the hello() function will run concurently along with main() function. The main function runs in its own goroutine and its called main goroutine.
+
+The `go hello()` syntax tell the program that we are creating a new goroutine. Now the hello() function will run concurently along with main() function. The main function runs in its own goroutine and its called main goroutine.
+
 
 ```
 Output
@@ -58,13 +60,14 @@ func main() {
 ```
 [playground](https://play.golang.org/p/4nT_Q6CuGrp)
 
+
 ```
 Output
 Hello world goroutine
 main function
 ```
 
-we add `sleep` method of time package which sleeps the main goroutine for 1 second so the `go hello()` will have enough time to execute before the main goroutine terminates.
+We are adding `sleep` method of time package which sleeps the main goroutine for 1 second so the `go hello()` will have enough time to execute before the main goroutine terminates.
 
 
 _This way of using sleep in the main goroutine to wait for another goroutine to finish their execution is a hack, there are several ways to coordinate between goroutines that is :_
