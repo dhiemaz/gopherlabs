@@ -1,13 +1,13 @@
 
-# Init Function
+# init Function
 
 Identifier _main_ is ubiquitous. Every Go program starts in a package _main_ by calling identically named function. When this function returns the program end its execution. Functions _init_ also play special role which are defined in package block and are usually used for:
 
-* variables initialization if cannot be done in initializtion expression.
+* variables initialization if cannot be done in initialization expression.
 * registering.
 * running one-time computations.
 
-_init_ function will be execute first before main function
+init() function will be executed first before main function
 ```go
 package main
 
@@ -31,9 +31,9 @@ init() will run first
 main() will run second
 ```
 
-_init_ function to use for variables initialization.
+init() function to use for variables initialization.
 
-the first example is code without init() function.
+given two examples, the first example is code without init() function.
 ```go
 
 package main
