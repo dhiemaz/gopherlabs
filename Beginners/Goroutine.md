@@ -2,7 +2,7 @@
 
 Goroutines are functions or methods that run concurrently with other functions or methods. Goroutines can be thought of as light weight threads.
 
-## creating goroutine
+### creating goroutine
 To create goroutine, just simply use prefix function or method call with the keyword `go` and you will have a new goroutine running concurrently.
 
 lets see example below,
