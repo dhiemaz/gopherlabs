@@ -43,7 +43,7 @@ defining channel
 value of channel a now is 0x4300c0
 ```
 
-we can also use `:=` short assignment statement to declaring and defining channel.
+we can also use `:=`, is a short assignment statement to declaring and defining channel.
 
 
 ```go
@@ -64,8 +64,8 @@ func main() {
 The syntax to send and receive data from a channel are given below
 
 ```go
-data := <- a // read / received from channel a and stored in data.
-a <- data    // write / send data to channel a.  
+data := <- a // read or received from channel a and stored in data.
+a <- data    // write or send data to channel a.  
 ```
 
 _The direction of the arrow with respect to the channel specifies whether the data is sent or received_
