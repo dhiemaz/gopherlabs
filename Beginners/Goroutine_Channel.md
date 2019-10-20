@@ -2,7 +2,7 @@
 
 Channels can be thought as pipes using which Goroutines communicate. Similar to how water flows from one end to another in a pipe, data can be sent from one end and received from the another end using channels. Sender and receiver in channels are blocking or synchronous.
 
-### declaring channel
+### Declaring channel
 Each channel has a type associated with, and this type is the type of data that the channel is allowed to transport. No other type is allowed to be transported using the channel.
 
 for example 
@@ -43,7 +43,7 @@ defining channel
 value of channel a now is 0x4300c0
 ```
 
-we can also using short assignment statement to declaring with defining channel using `:=` 
+we can also use `:=` short assignment statement to declaring and defining channel.
 
 
 ```go
@@ -60,7 +60,7 @@ func main() {
 [playground](https://play.golang.org/p/Z9hOeUEyAiu)
 
 
-### sending and receiving from channel
+### Sending and receiving from channel
 The syntax to send and receive data from a channel are given below
 
 ```go
