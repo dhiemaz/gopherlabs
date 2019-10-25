@@ -160,7 +160,7 @@ type Processor struct {
 
 By defining the mutex directly above the variable(s) it relates to, we are signalling to other developers that the mutex is used to protect access to these variables.
 
-#### *Deferred unlocks
+#### - Deferred unlocks
 In more complex software than the trivial examples above, where the function that calls Lock has various places to return, or the entire function must be locked, it is common to use a defer to ensure Unlock is called prior to the function returning, like so:
 
 
