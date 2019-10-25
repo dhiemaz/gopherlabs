@@ -141,7 +141,7 @@ So how does this work? Each time we call Lock, all other goroutines must wait be
 
 ### Tips and Trick
 
-#### *Idiomatic definition
+#### - Idiomatic definition
 Because a mutex doesn’t directly relate to a specific variable or function, it is idiomatic in Go to define the mutex above the variable it is applicable to. For instance, if we had a Processor struct for the example above, we’d define it like so
 
 
@@ -178,7 +178,7 @@ This ensures that no matter what branch the code takes inside the function, Unlo
 
 ### Deadlocks
 
-#### *Forget to unlock
+#### - Forget to unlock
 It is absolutely crucial to call Unlock! If you don’t all other goroutines will wait indefinitely for the Unlock call, meaning they will never proceed and the program will grind to a halt.
 
 
@@ -194,7 +194,7 @@ main.main()
 	/tmp/sandbox022115118/main.go:35 +0x160
 ```
 
-#### *Multiple calls to lock
+#### - Multiple calls to lock
 Calling lock from multiple places on the same Mutex. It’s possible that Lock is called by the same goroutine that already has the lock prior to it being unlocked, we’ll end up in another deadlock situation.
 
 ```go
@@ -243,9 +243,3 @@ main.main()
 ```
 
 The reason for this is that funcB, running in the same goroutine as funcA, tries to acquire a Lock on the same Mutex that funcA already locked. Because Lock blocks until the lock can be acquired, we’ll never reach the Unlock in funcA, and the program halts.
-
-
-
-
-
-T
